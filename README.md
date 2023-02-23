@@ -8,4 +8,6 @@ Purple theme for league-loader.
 
 # How to install:
  * Copy purple-theme.css 
+ * Copy `plugins` folder into league-loader directory
+ * Copy `assets` folder into league-loader directory
 
