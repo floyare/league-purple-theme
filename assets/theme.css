@@ -318,7 +318,13 @@ lol-uikit-full-page-backdrop {
 }
 
 .lol-loading-screen-container.lol-loading-screen-default-state{
-  background: url(/fe/lol-static-assets/images/loading-bg.png) #0F051F no-repeat !important;
+  /* background: url('https://i.ibb.co/QcgNzKT/7f7ce09a2a883002643f442a7e7ddfaf.jpg') #0F051F no-repeat !important; */
+  background: #0F051F !important;
+  /* opacity: 0.6 !important;  */
+}
+
+.lol-loading-screen-container{
+  backdrop-filter: blur(10px);
 }
 
 lol-social-roster-member .open-party .open-party-indicator{
@@ -332,7 +338,6 @@ lol-social-roster-member .open-party-indicator{
 .status-message.open-party.chat{
   color: #AB4AFF !important;
 }
-
 
 .filled.xp-ring{
   background-color: #AB4AFF !important;
@@ -524,6 +529,205 @@ lol-regalia-banner-v2-element{
 .__rcp-fe-lol-store{
   position: relative;
   z-index: 1;
+}
+
+.offer-card-unrevealed-loop-video{
+  filter: hue-rotate(-301deg) !important;
+}
+
+.loot-display-category-tab .loot-category-tab.selected::after{
+  filter: hue-rotate(-131deg) !important;
+}
+
+hr{
+  filter: hue-rotate(-131deg) !important;
+}
+
+
+::-webkit-scrollbar-thumb{
+  background-color: #771dee !important;
+}
+
+.recipe-help-button{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.border{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.loot-tray::before{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.loot-to-store-button {
+  filter: hue-rotate(-131deg) !important;
+}
+
+lol-uikit-tooltip-root{
+  filter: hue-rotate(-131deg) !important;
+}
+
+#lol-uikit-tooltip-root > div{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.style-profile-sub-nav{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.lol-uikit-close-button{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.style-profile-skin-picker-button {
+  filter: hue-rotate(-131deg) !important;
+}
+
+.collection-details{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.collection-ownership-filter {
+  filter: hue-rotate(-131deg) !important;
+}
+
+.collection-grouping-options{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.collection-sort-options{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.lock-icon{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.champion-mastery-badge{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.yourshop-header-riot {
+  filter: hue-rotate(-131deg) !important;
+}
+
+.yourshop-footer-riot-expiration{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.yourshop-footer-riot-notice{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.yourshop-footer-riot-notice{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.nav-tab{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.lol-uikit-flat-button-normal{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.nav-btn-gifting{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.nav-btn-accounts{
+  filter: hue-rotate(-131deg) !important;
+}
+
+/* lol-uikit-navigation-item{
+  filter: hue-rotate(-131deg) !important;
+} */
+
+.button-type-secondary{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.lol-uikit-flyout-frame-wrapper{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.lol-uikit-flat-button-inner{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.loot-recipe-help-container::before{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.loading-spinner{
+  filter: hue-rotate(-301deg) !important;
+}
+
+#ember821 > div > svg > g{
+  filter: hue-rotate(-251deg) !important;
+}
+
+.hextech-loading-animation{
+  filter: hue-rotate(-251deg) !important;
+}
+
+.icon-ring{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.conversation-close-button{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.chat-header{
+  border-bottom: thin solid #6615c4 !important;
+}
+
+lol-social-chat-input .chat-input{
+  filter: hue-rotate(-131deg) !important;
+}
+
+/* LOADING */
+.lol-loading-screen-status-text{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.lol-loading-screen-spinner{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.lol-loading-screen-progress-bar-frame{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.lol-loading-screen-progress-bar-progress{
+  filter: hue-rotate(-301deg) !important;
+}
+
+.email{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.heading{
+  border-bottom: thin solid #6615c4 !important;
+}
+
+.lol-uikit-dialog-frame.bottom.bordered{
+  border: 2px solid transparent !important;
+  border-image: linear-gradient(to top, #7f45ec 0, #7233e6 5px, #7233e6 100%) 1 stretch !important;
+}
+
+.lol-uikit-dialog-frame-close-button::before{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.lol-uikit-dialog-frame-sub-border{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.lol-uikit-dialog-frame{
+  filter: hue-rotate(-131deg) !important;
 }
 
 /* NAVIGATION */
