@@ -5,9 +5,8 @@ Purple theme for league-loader.
 
 # Required
  * <a href="https://github.com/nomi-san/league-loader">League loader</a>
+    > Version: 0.6.0
 
 # How to install:
- * Copy purple-theme.css 
- * Copy `plugins` folder into league-loader directory
- * Copy `assets` folder into league-loader directory
+ * Copy `purple-theme.js` to your `plugins` folder.
 
