@@ -7,5 +7,6 @@ function addCss(filename) {
 }
 
 window.onload = () => {
-  addCss('//assets/theme.css');
+  // External CDN for css hosting.
+  addCss("https://raw.githack.com/floyare/league-purple-theme/main/assets/theme.css");
 }
