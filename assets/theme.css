@@ -1,6 +1,6 @@
 /*
   Purple theme by floyare
-  version 0.1
+  version 0.2
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Orbitron&display=swap');
@@ -416,10 +416,6 @@ lol-social-avatar:not([disabled]):hover .summoner-level-ring{
   filter: none !important;
 }
 
-lol-uikit-flat-button-group{
-  filter: hue-rotate(-131deg);
-}
-
 .lol-uikit-dialog-frame {
   filter: hue-rotate(-131deg);
 }
@@ -713,9 +709,36 @@ lol-social-chat-input .chat-input{
   border-bottom: thin solid #6615c4 !important;
 }
 
-.lol-uikit-dialog-frame.bottom.bordered{
-  border: 2px solid transparent !important;
-  border-image: linear-gradient(to top, #7f45ec 0, #7233e6 5px, #7233e6 100%) 1 stretch !important;
+.dialog-frame{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.dialog-content{
+  filter: hue-rotate(131deg) !important;
+} 
+
+:host .lol-uikit-flyout-frame-wrapper.top .sub-border::before, :host .lol-uikit-flyout-frame-wrapper.bottom .sub-border::before{
+  filter: hue-rotate(-131deg) !important;
+}
+
+:host .lol-uikit-flyout-frame-wrapper.bottom .border{
+  filter: hue-rotate(-131deg) !important;
+}
+
+lol-uikit-flat-button-group{
+  /* filter: hue-rotate(-131deg); */
+}
+
+lol-uikit-flat-button-secondary{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.lol-uikit-dialog-frame-sub-border::before{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.lol-uikit-dialog-frame-sub-border::after{
+  filter: hue-rotate(-131deg) !important;
 }
 
 .lol-uikit-dialog-frame-close-button::before{
