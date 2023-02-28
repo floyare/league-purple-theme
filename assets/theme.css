@@ -1,6 +1,6 @@
 /*
   Purple theme by floyare
-  version 0.2
+  version 0.3
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Orbitron&display=swap');
@@ -32,7 +32,7 @@
 }
 
 body{
-  overflow: visible !important;
+  overflow: hidden !important;
   position: relative !important;
 }
 
@@ -440,10 +440,10 @@ lol-regalia-banner-v2-element{
   filter: hue-rotate(-131deg) !important;
 }
 
-.lol-uikit-dialog-frame.bottom.bordered{
+/* lol-uikit-dialog-frame::part(.lol-uikit-dialog-frame){
   border: 2px solid transparent !important;
-  border-image: linear-gradient(to top, #894aff 0, #652bc4 5px, #652bc6 100%) 1 stretch !important;
-}
+  border-image: linear-gradient(to top, red 0, green 5px, blue 100%) 1 stretch !important;
+} */
 
 :host .lol-uikit-dialog-frame.top .lol-uikit-dialog-frame-sub-border::before, :host .lol-uikit-dialog-frame.bottom .lol-uikit-dialog-frame-sub-border::before{
   filter: hue-rotate(-131deg) !important;
@@ -507,6 +507,10 @@ lol-regalia-banner-v2-element{
 .store-backdrop {
   position: relative;
   isolation: isolate;
+}
+
+.__rcp-fe-lol-store .navbar.clearfix .nav.nav-tabs{
+  filter: hue-rotate(-131deg) !important;
 }
 
 .store-backdrop:before{
@@ -752,6 +756,22 @@ lol-uikit-flat-button-secondary{
 .lol-uikit-dialog-frame{
   filter: hue-rotate(-131deg) !important;
 }
+
+.mission-tooltip{
+  filter: hue-rotate(131deg) !important;
+}
+
+.flyout{
+  filter: hue-rotate(-131deg) !important;
+}
+
+.mission-icon, .mission-reward  {
+  filter: hue-rotate(131deg) !important;
+}
+
+/* .mission-tracker-component{
+  filter: hue-rotate(131deg) !important;
+} */
 
 /* NAVIGATION */
 
